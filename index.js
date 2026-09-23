@@ -5,7 +5,8 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello from Express!");
+  res.send("Hello from the main branch!");
+
 });
 
 app.get("/about", (req, res) => {
