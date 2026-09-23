@@ -5,7 +5,11 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
- res.send("Welcome to our Express API!");
+// <<<<<<< HEAD
+//  res.send("Welcome to our Express API!");
+// =======
+  res.send("Hello from the feature branch!");
+//>>>>>>> feature/home
 
 
 });
